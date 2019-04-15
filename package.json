@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-workers",
+  "version": "1.0.0",
+  "description": "An example of nodejs workers usage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix . && echo 'Lint complete.'",
+    "start": "node --experimental-worker index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martin-trajanovski/nodejs-workers.git"
+  },
+  "keywords": [
+    "nodejs",
+    "workers"
+  ],
+  "author": "martin.trajanovski@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martin-trajanovski/nodejs-workers/issues"
+  },
+  "homepage": "https://github.com/martin-trajanovski/nodejs-workers#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.17.0"
+  }
+}
